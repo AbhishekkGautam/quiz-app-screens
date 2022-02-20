@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #272838;
+  --secondary-color: #3f3549;
+  --text-color: #989fce;
+  --accent-color: #c4a6e3;
+  --gray-50: #f5f5f4;
+  --gray-100: #e9e9e9;
+  --gray-300: #d6d3d1;
+  --gray-600: #57534e;
+  --gray-800: #292524;
+  --white: #fff;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper {
+  flex-grow: 1;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+@media only screen and (min-width: 450px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    padding: 0rem 4rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
