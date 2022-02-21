@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="./rules.css">
-	<title>Rules | KoolQuiz</title>
+	<link rel="stylesheet" href="./login.css">
+	<title>Login | KoolQuiz</title>
 </head>
 
 <body>
@@ -36,32 +36,41 @@
 					</a>
 				</li>
 			</ul>
-			<button class="btn btn-primary btn-sm login-btn">Login</button>
+			<a class="btn btn-primary btn-sm login-btn">Login</a>
 		</div>
 	</nav>
 	<main class="main-wrapper">
 		<section class="section-wrapper container">
-			<div class="rules-card-container">
-				<div class="card card-shadow rules-card">
-					<div class="card-body">
-						<h2 class="card-title">Shark Tank India</h2>
-						<div class="rules">
-							<span class="material-icons-outlined">info</span>
-							<p>The quiz contains a total of 5 questions.</p>
+			<div class="card login-card-container">
+				<div class="card-title">Login</div>
+				<div class="card-body">
+					<form action="#">
+						<div class="input-group">
+							<label class="input-label">Email address</label>
+							<input type="email" class="input-field" required>
 						</div>
-						<div class="rules">
-							<span class="material-icons-outlined">info</span>
-							<p>10 marks for every CORRECT ANSWER and 5 negative marks for WRONG ANSWER.</p>
-						</div>
-						<div class="rules">
-							<span class="material-icons-outlined">info</span>
-							<p>NO SKIP option.</p>
-						</div>
-						<div class="card-button">
 
-							<a class="btn btn-start-quiz" href="../questions/questions.html">Start Quiz</a>
+						<div class="input-group">
+							<label class="input-label">Password</label>
+							<input type="password" class="input-field" required>
 						</div>
+				</div>
+				<div class="card-extra-content">
+					<div class="checkbox-group">
+						<label class="checkbox-label" for="checkbox1">
+							<input class="checkbox" id="checkbox1" type="checkbox" name="checkbox">
+							Remember me
+						</label>
 					</div>
+					<div class="forgot-password">Forgot your password?</div>
+				</div>
+				<button class="btn btn-primary login-btn">Login</button>
+				</form>
+				<div class="create-new-account-link">
+					<a href="../signup/signup.html">
+						Create New Account
+						<span class="material-icons">chevron_right</span>
+					</a>
 				</div>
 			</div>
 		</section>

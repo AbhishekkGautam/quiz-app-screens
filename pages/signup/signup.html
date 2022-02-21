@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://momentui.netlify.app/css/components.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./signup.css">
+	<title>Signup | KoolQuiz</title>
+</head>
+
+<body>
+	<nav class="navbar nav-ecommerce">
+		<div class="navbar-section">
+			<button class="nav-menu-btn">
+				<span class="material-icons">menu</span>
+			</button>
+			<a class="navbar-brand" href="/">Kool Quiz</a>
+		</div>
+		<div class="navbar-section">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						<i class="fas fa-moon" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link">
+						<i class="material-icons-outlined">
+							person
+						</i>
+					</a>
+				</li>
+			</ul>
+			<a class="btn btn-primary btn-sm login-btn">Login</a>
+		</div>
+	</nav>
+	<main class="main-wrapper">
+		<section class="section-wrapper container">
+			<div class="card signup-card-container">
+				<div class="card-title">Signup</div>
+				<div class="card-body">
+					<form action="#">
+						<div class="input-group">
+							<label class="input-label">Email address</label>
+							<input type="email" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">First Name</label>
+							<input type="text" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Last Name</label>
+							<input type="text" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Password</label>
+							<input type="password" class="input-field" required>
+						</div>
+						<div class="input-group">
+							<label class="input-label">Confirm Password</label>
+							<input type="password" class="input-field" required>
+						</div>
+				</div>
+				<div class="card-extra-content">
+					<div class="checkbox-group">
+						<label class="checkbox-label" for="checkbox1">
+							<input class="checkbox" id="checkbox1" type="checkbox" name="checkbox">
+							I accept all Terms & Conditions
+						</label>
+					</div>
+				</div>
+				<button class="btn btn-primary signup-btn">Create New Account</button>
+				</form>
+				<div class="create-new-account-link">
+					<a href="../login/login.html">
+						Already have an account
+						<span class="material-icons">chevron_right</span>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+</html>
